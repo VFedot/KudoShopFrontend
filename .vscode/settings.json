@@ -1,0 +1,5 @@
+{
+  "appService.preDeployTask": "publish-release",
+  "appService.deploySubpath": "bin\\Release\\net5.0\\publish",
+  "appService.defaultWebAppToDeploy": "/subscriptions/9369f9be-e42f-4c8e-b1eb-74923b639649/resourceGroups/hackathon2021/providers/Microsoft.Web/sites/hackathon-master"
+}
