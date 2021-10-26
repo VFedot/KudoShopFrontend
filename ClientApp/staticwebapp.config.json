@@ -25,8 +25,8 @@
       "rewrite": "/calendar.html"
     },
     {
-      "route": "/specials",
-      "redirect": "/deals",
+      "route": "/adminlog",
+      "redirect": "/shop",
       "statusCode": 301
     }
   ],
