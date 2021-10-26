@@ -38,8 +38,7 @@
       "statusCode": 302
     },
     "403": {
-      "redirect": "/login",
-      "statusCode": 302
+"rewrite": "/invalid-invitation-error.html"
     },
     "404": {
       "rewrite": "/404.html"
