@@ -22,8 +22,7 @@
     },
     {
       "route": "/adminlog",
-      "redirect": "/shop",
-      "statusCode": 301
+      "allowedRoles": ["administrator"]
     }
   ],
   "navigationFallback": {
