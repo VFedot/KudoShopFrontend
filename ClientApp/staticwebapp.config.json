@@ -1,0 +1,26 @@
+{
+    "routes": [
+       {
+      "route": "/login",
+      "rewrite": "/.auth/login/google"
+      },
+             {
+      "route": "/test",
+      "statusCode": 402
+      },
+    {
+      "route": "/logout",
+      "redirect": "/.auth/logout"
+    },
+      {
+        "route": "/adminlog",
+        "allowedRoles": ["administrator"]
+      }
+    ],
+    "platformErrorOverrides": [
+      {
+        "errorType": "NotFound",
+        "serve": "/custom-404.html"
+      }
+    ]
+  }
