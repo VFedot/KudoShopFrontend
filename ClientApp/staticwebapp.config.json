@@ -6,7 +6,7 @@
       },
              {
       "route": "/test",
-      "statusCode": 402
+      "statusCode": "/adminlog"
       },
     {
       "route": "/logout",
