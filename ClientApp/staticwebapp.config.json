@@ -1,7 +1,15 @@
 {
   "routes": [
     {
-      "route": "/api/*",
+      "route": "/",
+      "allowedRoles": ["authenticated"]
+    },
+    {
+      "route": "/shop",
+      "allowedRoles": ["authenticated"]
+    },
+    {
+      "route": "/adminlog",
       "allowedRoles": ["authenticated"]
     },
     {
