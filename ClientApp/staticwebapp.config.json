@@ -6,11 +6,11 @@
     },
     {
       "route": "/shop",
-      "allowedRoles": ["authenticated"]
+      "allowedRoles": ["administrator"]
     },
     {
       "route": "/adminlog",
-      "allowedRoles": ["authenticated"]
+      "allowedRoles": ["administrator"]
     },
     {
       "route": "/login",
@@ -27,10 +27,6 @@
     {
       "route": "/calendar/*",
       "rewrite": "/calendar.html"
-    },
-    {
-      "route": "/adminlog",
-      "allowedRoles": ["administrator"]
     }
   ],
   "navigationFallback": {
